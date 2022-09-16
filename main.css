@@ -1,0 +1,52 @@
+body {
+    background-color: rgb(27, 31, 31);
+}
+
+.container-fluid{
+    margin-top: 150px;
+    position: relative;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(202, 182, 165);
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    font-size: 64px;
+}
+
+p {
+    text-align: center;
+    color: rgb(203, 198, 193);
+    font-weight: 500; 
+    font-size: 38px;
+}
+.butt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    background-color: rgb(27, 31, 31);
+    border-radius: 8px;
+    border: solid 3px;
+    border-color: rgb(203, 198, 193);
+    height: 70px;
+    width: 320px;
+    margin: 10px;
+}
+
+button span{
+    text-align: center;
+    color: rgb(203, 198, 193);
+    font-weight: 500; 
+    font-size: 28px; 
+}
+
+button:hover{
+   background-color: rgb(203, 198, 193); 
+}
+
+button:hover span{
+    color: rgb(27, 31, 31);
+}
